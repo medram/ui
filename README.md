@@ -8,6 +8,12 @@ Reusable shadcn/ui component library for React and Next.js applications.
 npm install @medram/ui
 ```
 
+## Documentation
+
+- Repo docs source: `docs/`
+- Published site: `https://medram.github.io/ui/`
+- Local preview: `npm run docs:dev`
+
 ## Tailwind setup
 
 Import the preset and add it to `presets`:

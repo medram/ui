@@ -65,6 +65,9 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
+    "docs:build": "vitepress build docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:preview": "vitepress preview docs",
     "pack:dry": "npm pack --dry-run",
     "prepack": "npm run build",
     "prepublishOnly": "npm run type:check",
@@ -103,8 +106,8 @@
     "next-themes": ">=0.4.0",
     "pretty-bytes": ">=5.6.0",
     "react": ">=18",
-    "react-dom": ">=18",
     "react-day-picker": ">=8.10.1",
+    "react-dom": ">=18",
     "react-dropzone": ">=14.2.3",
     "react-hot-toast": ">=2.4.1",
     "react-spinners": ">=0.13.8",
@@ -232,6 +235,7 @@
     "tailwindcss-animate": "^1.0.7",
     "tsup": "^8",
     "typescript": "^5",
+    "vitepress": "^1.6.4",
     "yup": "^1.4.0"
   }
 }
