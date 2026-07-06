@@ -1,6 +1,6 @@
 # Cloud storage reference
 
-Upload-aware components in `@flowui/ui` do not talk to your API directly. They depend on a provider contract that your app implements once.
+Upload-aware components in `@medram/react-ui-kit` do not talk to your API directly. They depend on a provider contract that your app implements once.
 
 ## Import
 
@@ -10,7 +10,7 @@ import {
   useCloudStorageContext,
   type CloudStorageContextValue,
   type UploadFileOptions,
-} from "@flowui/ui/cloud-storage"
+} from "@medram/react-ui-kit/cloud-storage"
 ```
 
 ## Provider contract
@@ -44,7 +44,7 @@ type CloudStorageContextValue = {
 import {
   CloudStorageProvider,
   type CloudStorageContextValue,
-} from "@flowui/ui/cloud-storage"
+} from "@medram/react-ui-kit/cloud-storage"
 
 const cloudStorageValue: CloudStorageContextValue = {
   uploadFile: async (file, { name, onProgress } = {}) =>
@@ -69,7 +69,7 @@ export function AppProviders({ children }: { children: React.ReactNode }) {
 ## Reading the provider from custom code
 
 ```tsx
-import { useCloudStorageContext } from "@flowui/ui/cloud-storage"
+import { useCloudStorageContext } from "@medram/react-ui-kit/cloud-storage"
 
 export function RetryUploadButton({ file }: { file: File }) {
   const { uploadFile } = useCloudStorageContext()

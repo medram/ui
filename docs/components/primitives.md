@@ -16,7 +16,7 @@ import {
   CardTitle,
   Input,
   Label,
-} from "@flowui/ui/primitives"
+} from "@medram/react-ui-kit/primitives"
 
 export function InviteCard() {
   return (
@@ -62,7 +62,7 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@flowui/ui/primitives"
+} from "@medram/react-ui-kit/primitives"
 
 export function StatusSelect() {
   return (
@@ -105,7 +105,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
   Button,
-} from "@flowui/ui/primitives"
+} from "@medram/react-ui-kit/primitives"
 
 export function DeleteProjectButton() {
   return (
@@ -158,7 +158,7 @@ export function DeleteProjectButton() {
 ### Example: tabs
 
 ```tsx
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@flowui/ui/primitives"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@medram/react-ui-kit/primitives"
 
 export function SettingsTabs() {
   return (
@@ -187,7 +187,7 @@ export function SettingsTabs() {
 
 ## Chart helpers
 
-These are the low-level pieces behind `@flowui/ui/charts`.
+These are the low-level pieces behind `@medram/react-ui-kit/charts`.
 
 | Export | Use it for |
 | --- | --- |
@@ -205,6 +205,6 @@ These are the low-level pieces behind `@flowui/ui/charts`.
 
 ## Good defaults
 
-- Use `@flowui/ui/primitives` when you want full control over composition.
-- Use `@flowui/ui/fields` when you want the same visual language plus labels, validation, and Formik integration.
+- Use `@medram/react-ui-kit/primitives` when you want full control over composition.
+- Use `@medram/react-ui-kit/fields` when you want the same visual language plus labels, validation, and Formik integration.
 - Use the root barrel only when a component already solves the full workflow you want.

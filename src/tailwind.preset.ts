@@ -3,8 +3,8 @@ import type { Config } from "tailwindcss"
 import tailwindcssAnimate from "tailwindcss-animate"
 
 /**
- * Tailwind preset for @flowui/ui. Consumers extend it via `presets: [preset]`
- * and supply the matching CSS variables by importing `@flowui/ui/styles.css`.
+ * Tailwind preset for @medram/react-ui-kit. Consumers extend it via `presets: [preset]`
+ * and supply the matching CSS variables by importing `@medram/react-ui-kit/styles.css`.
  *
  * Mirrors the design tokens previously defined inline in the host app's
  * tailwind.config.ts so component class names resolve identically.

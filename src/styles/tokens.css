@@ -1,6 +1,6 @@
 /*
- * Design tokens for @flowui/ui.
- * Import once in the host app (e.g. `@import "@flowui/ui/styles.css";`) so the
+ * Design tokens for @medram/react-ui-kit.
+ * Import once in the host app (e.g. `@import "@medram/react-ui-kit/styles.css";`) so the
  * CSS variables the Tailwind preset references are defined for light + dark.
  */
 @layer base {

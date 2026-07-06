@@ -2,7 +2,7 @@
 
 This package has two layers for form work:
 
-1. **Formik-ready fields** in `@flowui/ui/fields`
+1. **Formik-ready fields** in `@medram/react-ui-kit/fields`
 2. **Raw inputs** for custom state management when you do not want Formik
 
 ::: warning Formik is required for most field components
@@ -17,8 +17,8 @@ This package has two layers for form work:
 ::: info Recommended import pattern
 For the docs in this repo, the preferred split is:
 
-- field components from `@flowui/ui/fields`
-- shared helpers such as `SubmitButton` from `@flowui/ui`
+- field components from `@medram/react-ui-kit/fields`
+- shared helpers such as `SubmitButton` from `@medram/react-ui-kit`
 
 That keeps form-specific imports narrow without hiding app-ready helpers in the root barrel.
 :::
@@ -26,8 +26,8 @@ That keeps form-specific imports narrow without hiding app-ready helpers in the 
 
 ```tsx
 import { Form, Formik } from "formik"
-import { SubmitButton } from "@flowui/ui"
-import { InputField, SelectField, type SelectOptions } from "@flowui/ui/fields"
+import { SubmitButton } from "@medram/react-ui-kit"
+import { InputField, SelectField, type SelectOptions } from "@medram/react-ui-kit/fields"
 const roleOptions: SelectOptions<string>[] = [
   { label: "Admin", value: "admin" },
   { label: "Editor", value: "editor" },
@@ -165,8 +165,8 @@ export function UserForm() {
 ### Example: avatar upload with provider setup
 
 ```tsx
-import { CloudStorageProvider } from "@flowui/ui/cloud-storage"
-import { BasicImageUploaderField, SubmitButton } from "@flowui/ui/fields"
+import { CloudStorageProvider } from "@medram/react-ui-kit/cloud-storage"
+import { BasicImageUploaderField, SubmitButton } from "@medram/react-ui-kit/fields"
 import { Form, Formik } from "formik"
 
 const cloudStorage = {

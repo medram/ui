@@ -1,6 +1,6 @@
 # Root components
 
-The root `@flowui/ui` entrypoint is the convenience layer. It mixes a small set of re-exported fields with app-ready components that already encode common dashboard patterns.
+The root `@medram/react-ui-kit` entrypoint is the convenience layer. It mixes a small set of re-exported fields with app-ready components that already encode common dashboard patterns.
 
 Use it when you want fewer imports and the component already matches your workflow.
 
@@ -13,7 +13,7 @@ If you already know you need charts, wizard helpers, primitives, or fields, impo
 ### Status messaging with `AlertBox`
 
 ```tsx
-import { AlertBox } from "@flowui/ui"
+import { AlertBox } from "@medram/react-ui-kit"
 
 export function BillingNotice() {
   return (
@@ -30,7 +30,7 @@ export function BillingNotice() {
 
 ```tsx
 import { Form, Formik } from "formik"
-import { InputField, SubmitButton } from "@flowui/ui"
+import { InputField, SubmitButton } from "@medram/react-ui-kit"
 
 export function InviteForm() {
   return (
@@ -47,7 +47,7 @@ export function InviteForm() {
 ### Pagination with page-size control
 
 ```tsx
-import { Pagination } from "@flowui/ui"
+import { Pagination } from "@medram/react-ui-kit"
 
 export function ResultsFooter() {
   return (
@@ -64,7 +64,7 @@ export function ResultsFooter() {
 
 ## Re-exported form components
 
-These are also available from `@flowui/ui/fields`.
+These are also available from `@medram/react-ui-kit/fields`.
 
 | Export | Use it for |
 | --- | --- |
@@ -106,7 +106,7 @@ These are also available from `@flowui/ui/fields`.
 ### Example: root `Tabs`
 
 ```tsx
-import { Tabs, type TabNavItem } from "@flowui/ui"
+import { Tabs, type TabNavItem } from "@medram/react-ui-kit"
 
 const items: TabNavItem[] = [
   { title: "Overview", hash: "#overview", component: <OverviewPanel /> },
@@ -140,7 +140,7 @@ export function ProjectTabs() {
 ### Example: `OverviewBox`
 
 ```tsx
-import { OverviewBox } from "@flowui/ui"
+import { OverviewBox } from "@medram/react-ui-kit"
 import { DollarSign } from "lucide-react"
 
 export function RevenueCard() {
@@ -171,5 +171,5 @@ export function RevenueCard() {
 
 - Want the simplest, app-ready component? Start at the root barrel.
 - Want low-level composition or stricter import boundaries? Use the dedicated subpath.
-- Want predictable form behavior? Prefer `@flowui/ui/fields`.
+- Want predictable form behavior? Prefer `@medram/react-ui-kit/fields`.
 - Want a workflow with providers and shared state? See [Workflows and providers](/components/workflows).

@@ -6,17 +6,17 @@ This page is the shortest path to the right import.
 
 | Import path | Use it for | Best follow-up page |
 | --- | --- | --- |
-| `@flowui/ui` | Convenience barrel for commonly reused fields and app-ready widgets | [Root components](/components/root-components) |
-| `@flowui/ui/primitives` | shadcn/Radix-style low-level building blocks | [Primitives](/components/primitives) |
-| `@flowui/ui/fields` | Formik-ready fields, upload inputs, and field helpers | [Form fields](/components/form-fields) |
-| `@flowui/ui/charts` | Lazy-loaded Recharts wrappers | [Charts](/components/charts) |
-| `@flowui/ui/modal` | Stacked modal provider, hooks, and modal helpers | [Workflows and providers](/components/workflows) |
-| `@flowui/ui/wizard` | Wizard orchestration and wizard types | [Workflows and providers](/components/workflows) |
-| `@flowui/ui/webcam` | Webcam capture and upload flows | [Workflows and providers](/components/workflows) |
-| `@flowui/ui/time-picker` | Standalone time input controls | [Workflows and providers](/components/workflows) |
-| `@flowui/ui/cloud-storage` | Upload provider contract and hooks | [Cloud storage reference](/reference/cloud-storage) |
-| `@flowui/ui/tailwind` | Tailwind preset | [Styling](/guide/styling) |
-| `@flowui/ui/styles.css` | Shared design-token stylesheet | [Styling](/guide/styling) |
+| `@medram/react-ui-kit` | Convenience barrel for commonly reused fields and app-ready widgets | [Root components](/components/root-components) |
+| `@medram/react-ui-kit/primitives` | shadcn/Radix-style low-level building blocks | [Primitives](/components/primitives) |
+| `@medram/react-ui-kit/fields` | Formik-ready fields, upload inputs, and field helpers | [Form fields](/components/form-fields) |
+| `@medram/react-ui-kit/charts` | Lazy-loaded Recharts wrappers | [Charts](/components/charts) |
+| `@medram/react-ui-kit/modal` | Stacked modal provider, hooks, and modal helpers | [Workflows and providers](/components/workflows) |
+| `@medram/react-ui-kit/wizard` | Wizard orchestration and wizard types | [Workflows and providers](/components/workflows) |
+| `@medram/react-ui-kit/webcam` | Webcam capture and upload flows | [Workflows and providers](/components/workflows) |
+| `@medram/react-ui-kit/time-picker` | Standalone time input controls | [Workflows and providers](/components/workflows) |
+| `@medram/react-ui-kit/cloud-storage` | Upload provider contract and hooks | [Cloud storage reference](/reference/cloud-storage) |
+| `@medram/react-ui-kit/tailwind` | Tailwind preset | [Styling](/guide/styling) |
+| `@medram/react-ui-kit/styles.css` | Shared design-token stylesheet | [Styling](/guide/styling) |
 
 ## Root barrel highlights
 
